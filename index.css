@@ -39,6 +39,35 @@ nav ul li a{
     font-weight: bold;
 
 }
+
+.content {
+    display: flex;
+    flex-direction: row;
+    background-image: url('./image 1.png');
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.text-main {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+    flex: 1;
+    margin-top: 4rem;
+}
+
+.image {
+    flex: 1;
+    margin-top: 4rem;   
+}
+
+.image img {
+    width: 500px;
+    height: 400px;
+}
 li button{
     font-size: 20px;
     background-color: #ED661F;
@@ -64,13 +93,13 @@ nav ul li a:hover{
     background-size: cover;
     background-repeat: no-repeat;
 }
-.content {
+/* .content {
     display: flex;
     flex-direction: column;
     margin-left: 4rem;
     margin-top: 3rem;
     flex: 1;  
-}
+} */
 
 .exist img{
     float: right;
